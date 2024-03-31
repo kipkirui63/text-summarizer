@@ -63,7 +63,7 @@ def build_example(name, identifier, admin_config):
 
     nip89info = {
         "name": name,
-        "image": "https://image.nostr.build/720eadc9af89084bb09de659af43ad17fec1f4b0887084e83ac0ae708dfa83a6.png",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym90fGVufDB8fDB8fHww",
         "about": "I use a LLM connected via Huggingchat to summarize Inputs",
         "encryptionSupported": True,
         "cashuAccepted": True,
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     nip89info = {
         "name": "Text Summarizer",
-        "image": "https://image.nostr.build/720eadc9af89084bb09de659af43ad17fec1f4b0887084e83ac0ae708dfa83a6.png",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym90fGVufDB8fDB8fHww",
         "about": "I use a large language model connected via Huggingchat to summarize text inputs.",
         "encryptionSupported": True,
         "cashuAccepted": True,
