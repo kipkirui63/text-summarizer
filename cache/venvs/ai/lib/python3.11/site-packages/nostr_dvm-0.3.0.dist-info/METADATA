@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nostr-dvm
+Version: 0.3.0
+Summary: A framework to build and run Nostr NIP90 Data Vending Machines
+Home-page: https://github.com/believethehype/nostrdvm
+Author: Believethehype
+Author-email: believethehypeonnostr@proton.me
+License: MIT
+Keywords: nostr,nip90,dvm,data vending machine
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: nostr-sdk ==0.10.0
+Requires-Dist: bech32
+Requires-Dist: pycryptodome ==3.20.0
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: emoji ==2.8.0
+Requires-Dist: eva-decord ==0.6.1
+Requires-Dist: ffmpegio ==0.8.5
+Requires-Dist: lnurl
+Requires-Dist: pandas ==2.1.3
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: PyUpload ==0.1.4
+Requires-Dist: requests ==2.31.0
+Requires-Dist: instaloader ==4.10.1
+Requires-Dist: pytube ==15.0.0
+Requires-Dist: moviepy ==2.0.0.dev2
+Requires-Dist: zipp ==3.17.0
+Requires-Dist: urllib3 ==2.1.0
+Requires-Dist: typing-extensions >=4.9.0
+
+A framework to build and run Nostr NIP90 Data Vending Machines. This is an early stage release. Interfaces might change/brick

@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: PyUpload
+Version: 0.1.4
+Summary: A simple CLI tool to upload file with direct link
+Home-page: https://github.com/yukinotenshi/pyupload
+Author: yukinotenshi
+Author-email: gabriel.bentara@gmail.com
+License: MIT
+Keywords: direct upload cli
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: click
+
+# PyUpload
+A simple CLI tool to upload file with direct link
+
+Made for those who are too lazy to open SCP/SFTP
+
+## Installation
+```
+pip install pyupload
+```
+
+## Usage
+
+```
+pyupload <filename> --host=<host>
+```
+
+## Example
+```
+pyupload .gitignore --host=catbox
+
+[1674/1674] bytes |====================>|Your link : https://files.catbox.moe/e03ygs.gitignore
+```
+
+## Running Tests
+```
+python3 upload_test.py
+```
+
+## Issues? Changes?
+Just open an issue/pull requests
+

@@ -1,0 +1,2 @@
+[ffmpegio]
+rawdata_numpy = ffmpegio_plugin_numpy
